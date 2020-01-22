@@ -154,6 +154,10 @@ on boot
     chmod 0660 /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0062/trusted_touch_enable
     chown system /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0062/trusted_touch_event
     chmod 0660 /sys/devices/platform/soc/a94000.i2c/i2c-2/2-0062/trusted_touch_event
+
+    # Freezer setup
+    write /dev/freezer/frozen/freezer.killable 1
+
     chown system /sys/devices/system/cpu/hyp_core_ctl/enable
     chown system /sys/devices/system/cpu/hyp_core_ctl/hcc_min_freq
     # add for MZ to write sa_dump
