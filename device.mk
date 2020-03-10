@@ -94,7 +94,11 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_PACKAGES += \
     DolbyAtmos
 
-# 
+# Filesystem
+PRODUCT_PACKAGES += \
+    e2fsck_ramdisk \
+    tune2fs_ramdisk \
+    resize2fs_ramdisk
 
 # Paranoid Glyph
 PRODUCT_PACKAGES += \
