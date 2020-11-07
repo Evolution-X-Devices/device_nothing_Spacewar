@@ -37,3 +37,5 @@ bluetooth.profile.pbap.server.enabled?=true
 # Thermal
 persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
 
+# RescueParty (Disable it due to high risk of data loss)
+persist.sys.disable_rescue=true
