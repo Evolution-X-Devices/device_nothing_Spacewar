@@ -6,4 +6,10 @@
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
         relies on this value will not be sized correctly. -->
     <item name="pixel_pitch" format="float" type="dimen">63.18</item>
+    
+    <!-- Whether to show a warning notification when device's skin temperature is high. -->
+    <integer name="config_showTemperatureWarning">1</integer>
+    
+    <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
+    <integer name="config_showUsbPortAlarm">1</integer>
 </resources>
