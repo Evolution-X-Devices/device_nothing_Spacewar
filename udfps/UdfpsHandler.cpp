@@ -36,11 +36,11 @@ static bool readBool(int fd) {
     return c != '0';
 }
 
-class NothingUdfpsHander : public UdfpsHandler {
+class NothingUdfpsHandler : public UdfpsHandler {
 public:
-    NothingUdfpsHander() : mDevice(nullptr), mRunning(false) {}
+    NothingUdfpsHandler() : mDevice(nullptr), mRunning(false) {}
 
-    ~NothingUdfpsHander() {
+    ~NothingUdfpsHandler() {
         mRunning = false;
     }
 
@@ -110,7 +110,7 @@ private:
 };
 
 static UdfpsHandler* create() {
-    return new NothingUdfpsHander();
+    return new NothingUdfpsHandler();
 }
 
 static void destroy(UdfpsHandler* handler) {
