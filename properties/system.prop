@@ -41,7 +41,6 @@ persist.vendor.data.mode=concurrent
 ro.nfc.port=I2C
 
 # Radio
-persist.vendor.radio.atfwd.start=true
 ril.subscription.types=NV,RUIM
 telephony.lteOnCdmaDevice=1
 
