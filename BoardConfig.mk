@@ -66,6 +66,9 @@ BOARD_KERNEL_CMDLINE := \
     iptable_raw.raw_before_defrag=1 \
     ip6table_raw.raw_before_defrag=1
 
+# kpti
+BOARD_KERNEL_CMDLINE += kpti=off
+
 # Disable serial console
 BOARD_KERNEL_CMDLINE += androidboot.console=0
 
