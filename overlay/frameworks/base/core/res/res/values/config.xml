@@ -597,4 +597,7 @@
      
     <!-- Whether to disable Smart Pixels on UDFPS -->
     <bool name="config_disableSmartPixelsOnUDFPS">true</bool>
+
+    <!-- Does the device support color inversion -->
+    <bool name="config_displayInversionAvailable">false</bool>
 </resources>
