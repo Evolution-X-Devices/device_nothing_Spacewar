@@ -64,7 +64,8 @@ BOARD_KERNEL_CMDLINE := \
     cgroup.memory=nokmem,nosocket \
     pcie_ports=compat \
     iptable_raw.raw_before_defrag=1 \
-    ip6table_raw.raw_before_defrag=1
+    ip6table_raw.raw_before_defrag=1 \
+    androidboot.init_fatal_reboot_target=recovery
 
 # kpti
 BOARD_KERNEL_CMDLINE += kpti=off
