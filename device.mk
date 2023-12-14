@@ -26,8 +26,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/nothing \
     hardware/google/interfaces \
     hardware/google/pixel \
-    vendor/nxp/nfc \
-    vendor/nxp/secure_element \
     vendor/qcom/opensource/usb/etc
 
 # A/B
@@ -312,7 +310,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service.pn8x \
+    android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     Tag
 
