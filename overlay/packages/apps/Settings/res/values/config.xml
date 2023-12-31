@@ -41,4 +41,7 @@
 
     <!-- The radius of the enrollment progress bar, in dp -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
+
+ <!-- Whether to show the Preference for Adaptive connectivity -->
+    <bool name="config_show_adaptive_connectivity">true</bool>
 </resources>
