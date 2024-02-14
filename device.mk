@@ -308,7 +308,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.lahaina.perf.rc
+    init.lahaina.perf.rc \
+    init.lahaina.perf.sh
 
 # IPACM
 PRODUCT_PACKAGES += \
