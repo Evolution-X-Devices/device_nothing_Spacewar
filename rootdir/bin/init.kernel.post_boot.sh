@@ -44,7 +44,6 @@ configure_read_ahead() {
 configure_vm() {
     echo 40  > /proc/sys/vm/swappiness
     echo 20  > /proc/sys/vm/watermark_scale_factor
-    echo 2   > /proc/sys/vm/kswapd_threads
     echo 15  > /proc/sys/vm/dirty_ratio
     echo 5   > /proc/sys/vm/dirty_background_ratio
     configure_zram
