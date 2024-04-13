@@ -580,4 +580,7 @@
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
+    
+    <!--Useful if you want to improve signal reception -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
