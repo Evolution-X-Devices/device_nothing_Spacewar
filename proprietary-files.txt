@@ -1,5 +1,4 @@
-# All unpinned blobs are extracted from Spacewar-T2.0-230901-1652
-# NothingOS 1.5.6: Spacewar-T1.5-230706-1942
+# All unpinned blobs are extracted from Spacewar-U3.0-241211-0926
 
 # ACDB
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
@@ -88,7 +87,7 @@ vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Alarm
-product/app/PowerOffAlarm/PowerOffAlarm.apk
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -731,6 +730,7 @@ vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
+system/lib64/vendor.qti.diaghal-V1-ndk.so
 
 # DRM
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
@@ -771,6 +771,7 @@ vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
 vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
+vendor/lib64/libesepmconfig.so
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.lahaina.so
@@ -804,8 +805,6 @@ vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 vendor/etc/seccomp_policy/gnss@2.0-base.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtra-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
-vendor/etc/seccomp_policy/gnss@2.0-xtwifi-inet-agent.policy
-vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
 vendor/lib/libbatching.so
 vendor/lib/libgeofencing.so
@@ -830,15 +829,10 @@ vendor/bin/mlid
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
-vendor/bin/xtwifi-inet-agent
-vendor/etc/cacert_location.pem
-vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml
-vendor/etc/xtra_root_cert.pem
-vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.3-service.xml
+vendor/lib64/hw/vendor.qti.gnss@4.3-impl.so
 vendor/lib64/libaoa.so
-vendor/lib64/libasn1cper.so
-vendor/lib64/libasn1crt.so
-vendor/lib64/libasn1crtx.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
 vendor/lib64/libgarden.so
@@ -862,16 +856,17 @@ vendor/lib64/libqdma_file_agent.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/libxtadapter.so
-vendor/lib64/libxtwifi_server_protocol.so
-vendor/lib64/libxtwifi_server_protocol_uri_v3.so
 vendor/lib64/vendor.qti.gnss@1.0.so
 vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
-vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
+vendor/lib64/vendor.qti.gnss@4.1.so
+vendor/lib64/vendor.qti.gnss@4.2.so
+vendor/lib64/vendor.qti.gnss@4.3-service.so
+vendor/lib64/vendor.qti.gnss@4.3.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
@@ -945,11 +940,11 @@ vendor/firmware/a660_zap.mdt
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
-# HotwordEnrollment - from NothingOS 1.5.6
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|9623cb71adf6d7fa0ee51af8e1ac214a1c79ef39
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|707c211cddca43d7a940a079452a29b38c452f46
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
-system_ext/framework/com.android.hotwordenrollment.common.util.jar|9ad8db8e39c477fcc298f109ab39022c1970167e
+# HotwordEnrollment
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
@@ -1016,7 +1011,7 @@ system_ext/lib64/libmmparser_lite.so
 vendor/bin/init.qti.media.sh
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
-vendor/etc/init/init.qti.media.rc
+-vendor/etc/init/init.qti.media.rc
 vendor/etc/init/vppservice.rc
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
@@ -1191,7 +1186,7 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Radio
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
-system_ext/app/QtiTelephony/QtiTelephony.apk
+system_ext/priv-app/QtiTelephony/QtiTelephony.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
@@ -1229,7 +1224,9 @@ vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/qcril_database/qcrilNr.db
 vendor/etc/qcril_database/upgrade/config/10.0_config.sql
 vendor/etc/qcril_database/upgrade/config/11.0_config.sql
-vendor/etc/qcril_database/upgrade/config/14.0_config.sql
+vendor/etc/qcril_database/upgrade/config/12.0_config.sql
+vendor/etc/qcril_database/upgrade/config/13.0_config.sql
+vendor/etc/qcril_database/upgrade/config/17.0_config.sql
 vendor/etc/qcril_database/upgrade/config/6.0_config.sql
 vendor/etc/qcril_database/upgrade/config/7.0_config.sql
 vendor/etc/qcril_database/upgrade/config/8.0_config.sql
@@ -1239,6 +1236,9 @@ vendor/etc/qcril_database/upgrade/other/10_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/11_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/12_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/14_version_update_ecc_table.sql
+vendor/etc/qcril_database/upgrade/other/15_version_update_ecc_table.sql
+vendor/etc/qcril_database/upgrade/other/16_version_update_ecc_table.sql
+vendor/etc/qcril_database/upgrade/other/17_version_update_ecc_table.sql
 vendor/etc/qcril_database/upgrade/other/1_version_intro_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/2_version_add_wps_config_qcrilnr.sql
 vendor/etc/qcril_database/upgrade/other/3_version_update_wps_config_qcrilnr.sql
@@ -1281,6 +1281,7 @@ vendor/lib64/librilqmimiscservices.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrilMarshal.so
+vendor/lib64/qcril_client.so
 vendor/lib64/qcrild_libqcrilnrutils.so
 vendor/lib64/qtiril-utils.so
 vendor/lib64/qtiwakelock.so
@@ -1351,6 +1352,8 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.5.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.7.so
+vendor/lib64/vendor.qti.hardware.radio.ims@1.8.so
+vendor/lib64/vendor.qti.hardware.radio.ims@1.9.so
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.configservice@1.0.so
@@ -1482,6 +1485,7 @@ vendor/bin/ssr_setup
 # Thermal
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
 vendor/bin/thermal-engine
+vendor/etc/advance_thermal_mitigation/atmc.json
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
 vendor/etc/thermal-engine.conf
@@ -1491,6 +1495,7 @@ vendor/etc/thermal.high.level1.conf
 vendor/etc/thermal.high.level2.conf
 vendor/etc/thermal.high.level3.conf
 vendor/etc/thermal.high.level4.conf
+vendor/etc/thermal.high.perf.conf
 vendor/etc/thermal.low.conf
 vendor/etc/thermal.low.level1.conf
 vendor/etc/thermal.low.level2.conf
@@ -1617,7 +1622,6 @@ system_ext/lib/libwfduibcsinkinterface.so
 system_ext/lib/libwfduibcsrc.so
 system_ext/lib/libwfduibcsrcinterface.so
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
-system_ext/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
 system_ext/lib64/libmmrtpdecoder.so
 system_ext/lib64/libmmrtpencoder.so
 system_ext/lib64/libwfdavenhancements.so
