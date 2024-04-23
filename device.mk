@@ -94,6 +94,8 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_PACKAGES += \
     DolbyAtmos
 
+# 
+
 # Paranoid Glyph
 PRODUCT_PACKAGES += \
     ParanoidGlyphPhone1 \
@@ -305,7 +307,8 @@ PRODUCT_PACKAGES += \
     init.qti.kernel.sh \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.lahaina.perf.rc
 
 # IPACM
 PRODUCT_PACKAGES += \
