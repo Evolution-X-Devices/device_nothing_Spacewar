@@ -172,6 +172,7 @@ persist.mm.enable.prefetch=true
 debug.sf.latch_unsignaled=0
 debug.sf.enable_egl_image_tracker=0
 debug.sf.enable_transaction_tracing=false
+debug.sf.defer_refresh_rate_when_off=1
 
 # Graphics (SurfaceFlinger Durations
 debug.sf.earlyGl.app.duration=13666666
