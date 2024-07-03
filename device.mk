@@ -29,6 +29,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/nothing \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/qcom-caf/common/libqti-perfd-client \
     hardware/lineage/interfaces/power-libperfmgr \
     vendor/qcom/opensource/usb/etc
 
@@ -334,14 +335,11 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
-# Perfd (dummy)
-PRODUCT_PACKAGES += \
-    libqti-perfd-client
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
-    android.hardware.power@1.3.vendor
+    android.hardware.power@1.3.vendor \
+    libqti-perfd-client
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
