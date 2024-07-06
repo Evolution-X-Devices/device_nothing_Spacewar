@@ -1105,8 +1105,6 @@ vendor/lib64/vendor.qti.hardware.qconfig@1.0.so
 
 # Media configs
 vendor/etc/media/video_system_specs.json
-vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_performance.xml
 vendor/etc/media_codecs_performance_yupik_v1.xml
 vendor/etc/media_codecs_vendor_audio.xml
 vendor/etc/media_codecs_yupik_v1.xml
