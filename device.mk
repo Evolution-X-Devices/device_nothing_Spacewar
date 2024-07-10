@@ -14,6 +14,7 @@ PRODUCT_VENDOR_PROPERTIES += \
     dalvik.vm.heaptargetutilization?=0.75 \
     dalvik.vm.heapminfree?=512k \
     dalvik.vm.heapmaxfree?=8m
+$(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
