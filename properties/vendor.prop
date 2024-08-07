@@ -87,9 +87,9 @@ persist.vendor.qcom.bluetooth.aptxadaptiver2_1_support=true
 ro.bluetooth.a2dp_offload.supported=true
 
 # Camera
-vendor.camera.aux.packagelist=com.snapchat.android
 persist.vendor.camera.logInfoMask=false
 persist.vendor.camera.perflock.enable=0
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev,com.snapchat.android
 
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
