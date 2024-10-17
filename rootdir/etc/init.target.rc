@@ -174,6 +174,7 @@ on boot
     chmod 0666 /sys/class/drm/sde-conn-1-DSI-1/panel_id
     # add for cit to write leds
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/all_leds_effect
+    chmod 0666 /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/all_leds_effect
     #add for TP to write mode
     chown system system /sys/bus/spi/devices/spi0.0/fts_edge_mode
     chown system system /sys/bus/spi/devices/spi0.0/fts_gesture_mode
@@ -193,8 +194,11 @@ on boot
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/vline_leds_br
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/dot_led_br
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/horse_race_leds_br
+    chmod 0666 /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/horse_race_leds_br
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/round_leds_br
+    chmod 0666 /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/round_leds_br
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/single_led_br
+    chmod 0666 /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/single_led_br
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/round_leds_effect
     chown system system /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/horse_race_leds
     #add for hal write lednode
@@ -339,6 +343,14 @@ service fan_control_turn_off /vendor/bin/fan_control 0
     user root
     disabled
     oneshot
+
+#dandy add for fix ABR-942
+#Increase boot light effect@{
+on property:service.bootanim.exit=0
+   write /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/bootan_leds_effect 1
+on property:service.bootanim.exit=1
+   write /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led/bootan_leds_effect 0
+#@}
 
 #ningfei add for fix ABR-3149
 #add system group for charger node@{
