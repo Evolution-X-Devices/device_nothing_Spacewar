@@ -3,7 +3,6 @@ apr_dlkm.ko
 bolero_cdc_dlkm.ko
 bt_fm_slim.ko
 btpower.ko
-camera.ko
 e4000.ko
 fc0011.ko
 fc0012.ko
@@ -21,7 +20,6 @@ max2165.ko
 mbhc_dlkm.ko
 mc44s803.ko
 msi001.ko
-msm_drm.ko
 mt2060.ko
 mt2063.ko
 mt20xx.ko
@@ -43,7 +41,6 @@ qm1d1b0004.ko
 qm1d1c0042.ko
 qt1010.ko
 r820t.ko
-radio-i2c-rtc6226-qca.ko
 rdbg.ko
 rmnet_core.ko
 rmnet_ctl.ko
@@ -72,8 +69,6 @@ tuner-types.ko
 tuner-xc2028.ko
 tx_macro_dlkm.ko
 va_macro_dlkm.ko
-wcd937x_dlkm.ko
-wcd937x_slave_dlkm.ko
 wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd9xxx_dlkm.ko
