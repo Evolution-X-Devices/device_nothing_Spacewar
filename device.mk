@@ -131,19 +131,29 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
+    audio.primary.lahaina \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
+    liba2dpoffload \
     libaudiopreprocessing \
+    libbatterylistener \
     libbundlewrapper \
+    libcomprcapture \
     libdownmix \
     libdynproc \
     libeffectproxy \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
     libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libreverbwrapper \
+    libsndmonitor \
+    libspkrprot \
+    libssrec \
     libtinycompress \
     libvisualizer \
     libvolumelistener \
@@ -156,7 +166,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml \
     $(LOCAL_PATH)/configs/audio/mixer_paths_yupikqrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/mixer_paths_yupikqrd.xml \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_effects.xml \
-    $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
+    $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    $(LOCAL_PATH)/configs/audio/audio_platform_info_yupikqrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_platform_info_yupikqrd.xml \
+    $(LOCAL_PATH)/configs/audio/audio_platform_info_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_qrd.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
