@@ -97,9 +97,9 @@ vendor/lib/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
-vendor/lib/hw/audio.primary.lahaina.so
+vendor/lib/hw/audio.primary.lahaina.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=audio.primary.lahaina
 vendor/lib/lib_lvacfs.so
-vendor/lib/liba2dpoffload.so
+vendor/lib/liba2dpoffload.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=liba2dpoffload
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
@@ -110,7 +110,7 @@ vendor/lib/libdrc.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/liblvacfs_wrapper.so
 vendor/lib/libqtigef.so
-vendor/lib/libssrec.so
+vendor/lib/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
 vendor/lib/libsurround_3mic_proc.so
 
 # Audio amplifier
@@ -240,8 +240,8 @@ system_ext/etc/hdr_config/wnr_off/wnr_config.txt
 system_ext/etc/hdr_config/wnr_off/wnr_params.txt
 system_ext/etc/hdr_config/wnr_on/wnr_config.txt
 system_ext/etc/hdr_config/wnr_on/wnr_params.txt
-system_ext/lib/libavenhancements.so
-system_ext/lib64/libavenhancements.so
+system_ext/lib/libavenhancements.so;DISABLE_CHECKELF
+system_ext/lib64/libavenhancements.so;DISABLE_CHECKELF
 
 # Audio LVIMFS parameters
 vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat
@@ -537,7 +537,7 @@ vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/app/CneApp/CneApp.apk
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
-vendor/bin/mutualex
+vendor/bin/mutualex;DISABLE_CHECKELF
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
@@ -570,12 +570,12 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml
 vendor/etc/init/cnd.rc
 vendor/etc/init/mutualex.rc
-vendor/lib64/libcne.so
+vendor/lib64/libcne.so;DISABLE_CHECKELF
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libwms.so
-vendor/lib64/libwqe.so
+vendor/lib64/libwqe.so;DISABLE_CHECKELF
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
@@ -726,7 +726,7 @@ system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libdpmqmihal.so
 system/lib64/vendor.qti.diaghal-V1-ndk.so
 
@@ -822,7 +822,7 @@ vendor/lib64/liblocation_api.so
 vendor/app/CACertService/CACertService.apk
 vendor/bin/garden_app
 vendor/bin/loc_launcher
-vendor/bin/lowi-server
+vendor/bin/lowi-server;DISABLE_CHECKELF
 vendor/bin/mlid
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
@@ -1026,10 +1026,10 @@ vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxMpeghDecSw.so
 vendor/lib/libOmxMpeghEncSw.so
 vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxVideoDSMode.so
+vendor/lib/libOmxVideoDSMode.so;DISABLE_CHECKELF
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libdsd2pcm.so
-vendor/lib/libmmosal.so
+vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib/libvppclient.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so
@@ -1054,7 +1054,7 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxMpeghEncSw.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
-vendor/lib64/libmmosal.so
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libvppclient.so
 vendor/lib64/libvpphcp.so
 vendor/lib64/libvpphvx.so
@@ -1373,7 +1373,7 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.0.so
 vendor/lib64/vendor.qti.ims.rcsuce@1.1.so
 vendor/lib64/vendor.qti.ims.rcsuce@1.2.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
@@ -1676,7 +1676,7 @@ vendor/lib/libwfduibcsinkinterface_proprietary.so
 vendor/lib/libwfduibcsrc_proprietary.so
 vendor/lib/libwfduibcsrcinterface_proprietary.so
 vendor/lib/libwfdutils_proprietary.so
-vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
+vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
@@ -1685,4 +1685,4 @@ vendor/lib64/libmiracast.so
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libwfddisplayconfig_proprietary.so
 vendor/lib64/libwfdhdcpcp.so
-vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
+vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so;MODULE_SUFFIX=_vendor
