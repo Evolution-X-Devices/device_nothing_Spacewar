@@ -250,7 +250,7 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.qti.nothing
+    android.hardware.light-service.lineage
 
 # Lineage Health
 PRODUCT_PACKAGES += \
