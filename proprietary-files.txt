@@ -1581,7 +1581,7 @@ vendor/bin/cnss-daemon
 vendor/etc/init/init.vendor.wlan.rc
 
 # WiFi Display
-system/framework/WfdCommon.jar
+system/framework/WfdCommon.jar;BOOT_JAR
 system_ext/bin/wfdservice
 system_ext/bin/wfdservice64
 system_ext/etc/init/wfdservice.rc
