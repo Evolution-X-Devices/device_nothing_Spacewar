@@ -21,4 +21,5 @@
 /sys/devices/platform/soc/984000.i2c/i2c-0/0-0020/leds/aw210xx_led(/.*)?                          u:object_r:sysfs_leds:s0
 
 # Vibrator
+/dev/aw8697_haptic                                                u:object_r:aac_richtap_dev_device:s0
 /vendor/bin/hw/android.hardware.vibrator.service.spacewar         u:object_r:hal_vibrator_default_exec:s0
