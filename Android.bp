@@ -10,6 +10,7 @@ soong_namespace {
         "hardware/nothing",
         "hardware/google/interfaces",
         "hardware/google/pixel",
+        "vendor/nothing/Spacewar",
     ],
 }
 
