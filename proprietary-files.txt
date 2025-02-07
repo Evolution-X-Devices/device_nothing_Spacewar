@@ -102,6 +102,8 @@ vendor/lib/lib_lvacfs.so
 vendor/lib/liblvacfs_wrapper.so
 vendor/lib/libaudcal.so
 vendor/lib/libadiertac.so
+vendor/lib/libdirac.so
+vendor/lib/soundfx/libdiraceffect_NT.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libadiertac.so
 
