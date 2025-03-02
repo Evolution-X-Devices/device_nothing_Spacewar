@@ -1,5 +1,6 @@
-#
-# Copyright (C) 2022-2025 The LineageOS Project
+
+# Copyright (C) 2022-2025 The LineageOS Project	
+# 
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -47,6 +48,15 @@ TARGET_GLOBAL_THINLTO := true
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 TARGET_USES_VULKAN := true
+
+# Camera
+TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
+
+# Build
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
+# Camera
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.Spacewar
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
