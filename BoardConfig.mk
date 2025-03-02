@@ -51,6 +51,9 @@ TARGET_USES_VULKAN := true
 # Camera
 $(call soong_config_set,camera,override_format_from_reserved,true)
 
+## torch control ##
+TARGET_CAMERA_SERVICE_EXT_LIB := //$(DEVICE_PATH):libcameraservice_extension.Spacewar
+
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_CMDLINE := \
