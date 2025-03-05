@@ -243,6 +243,8 @@ PRODUCT_COPY_FILES += \
 # Override 120 for SurfaceFlinger frame_rate_category_m8n
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,120)
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # DRM
 PRODUCT_PACKAGES += \
