@@ -1060,7 +1060,7 @@ system_ext/lib64/libmmparser_lite.so
 vendor/bin/init.qti.media.sh
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
--vendor/etc/init/init.qti.media.rc
+vendor/etc/init/init.qti.media.rc
 vendor/etc/init/vppservice.rc
 vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib/libvppclient.so
