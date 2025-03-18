@@ -46,6 +46,9 @@
         <string-array name="nt_5g_plus_display_rules_string_array" num="1">
             <item value="NRCA" />
         </string-array>
+ 
+        <!-- PA: Set 5G+ threshold bandwidth to 0 by default -->
+        <int name="nr_advanced_threshold_bandwidth_khz_int" value="0"/>
 
         <!-- If this is true, the SIM card (through Customer Service Profile EF file) will be
          able to prevent manual operator selection. If false, this SIM setting will be
