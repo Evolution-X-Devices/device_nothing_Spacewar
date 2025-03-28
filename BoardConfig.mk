@@ -1,4 +1,4 @@
-#
+	#
 # Copyright (C) 2022-2025 The LineageOS Project
 # Copyright (C) 2025-2026 The Evolution X Project
 # SPDX-License-Identifier: Apache-2.0
@@ -66,6 +66,9 @@ BOARD_KERNEL_CMDLINE := \
     pcie_ports=compat \
     iptable_raw.raw_before_defrag=1 \
     ip6table_raw.raw_before_defrag=1
+
+# Disable serial console
+BOARD_KERNEL_CMDLINE += androidboot.console=0
 
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_BASE := 0x00000000
