@@ -31,6 +31,10 @@ debug.sf.enable_hwc_vds=0
 persist.sys.sf.native_mode=260
 sys.brightness.disable_gamma_conversion=true
 
+# Disable Skia tracing by default
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
+
 # Graphics
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
