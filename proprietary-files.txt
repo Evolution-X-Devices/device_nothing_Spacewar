@@ -98,7 +98,6 @@ vendor/lib/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
-<<<<<<< HEAD
 vendor/lib/hw/audio.primary.lahaina.so
 vendor/lib/lib_lvacfs.so
 vendor/lib/liba2dpoffload.so
@@ -122,7 +121,6 @@ vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib64/libaudcal.so
-=======
 vendor/lib/soundfx/libdiraceffect_NT.so
 vendor/lib/lib_lvacfs.so
 vendor/lib/libadiertac.so
@@ -138,6 +136,8 @@ system/priv-app/NothingAudioEffectService/NothingAudioEffectService.apk
 vendor/etc/dirac/dirac_resource.dar
 vendor/lib/libdirac.so
 vendor/lib/soundfx/libdiraceffect_NT.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libadiertac.so
 
 # Audio amplifier
 vendor/firmware/tfa98xx.cnt
