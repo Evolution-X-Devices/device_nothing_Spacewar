@@ -101,7 +101,6 @@ TARGET_USES_DISPLAY_RENDER_INTENTS := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Fingerprint
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/nothing:libudfps_extension.nothing
 TARGET_USES_FOD_ZPOS := true
 
 # HIDL
