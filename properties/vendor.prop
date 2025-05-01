@@ -204,6 +204,7 @@ ro.oem_unlock_supported=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
+vendor.perf.framepacing.enable=1
 
 # Performance
 debug.performance.tuning=1
