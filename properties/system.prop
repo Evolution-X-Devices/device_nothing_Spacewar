@@ -7,6 +7,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Audio
 use.voice.path.for.pcm.voip=true
 
+# Audio service timeout
+audio.service.client_wait_ms=10000
+
 # Bluetooth
 persist.vendor.bluetooth.modem_nv_support=true
 
