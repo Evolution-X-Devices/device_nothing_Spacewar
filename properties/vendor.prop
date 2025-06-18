@@ -168,6 +168,14 @@ persist.mm.enable.prefetch=true
 debug.sf.latch_unsignaled=0
 debug.sf.enable_egl_image_tracker=0
 
+# Graphics (SurfaceFlinger Durations
+debug.sf.earlyGl.app.duration=13666666
+debug.sf.earlyGl.sf.duration=15666666
+debug.sf.early.app.duration=13666666
+debug.sf.early.sf.duration=15666666
+debug.sf.late.app.duration=13666666
+debug.sf.late.sf.duration=15666666
+
 # Refresh Rate
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_display_power_timer_ms=1000
