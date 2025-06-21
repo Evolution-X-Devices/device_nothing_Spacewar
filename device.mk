@@ -215,6 +215,10 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/nothing:libudfps_ext
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
+    
+# libwpa_client
+PRODUCT_PACKAGES += \
+    libwpa_client
 
 # HotwordEnrollement
 PRODUCT_COPY_FILES += \
