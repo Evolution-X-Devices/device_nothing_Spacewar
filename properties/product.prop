@@ -37,6 +37,9 @@ bluetooth.profile.pbap.server.enabled?=true
 # Thermal
 persist.vendor.thermal.config=/vendor/etc/thermal-engine.conf
 
+# eBPF
+ro.bpf.kver_override=5.10.239
+
 # LMK tuning
 ro.lmk.swap_free_low_percentage=100
 
