@@ -22,3 +22,4 @@ telephony.active_modems.max_count=2
 
 # Logs 
 persist.log.tag.ACDB-LOADER=S
+persist.log.tag.minksocket=S
