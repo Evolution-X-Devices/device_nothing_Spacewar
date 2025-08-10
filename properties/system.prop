@@ -10,6 +10,9 @@ use.voice.path.for.pcm.voip=true
 # Bluetooth
 persist.vendor.bluetooth.modem_nv_support=true
 
+# Blur
+ro.sf.blurs_are_expensive=1
+
 # Camera
 camera.disable_zsl_mode=true
 
@@ -74,3 +77,4 @@ ro.build.nothing.feature.diff.device.Spacewar=0x8a0042a4041a032c34800L
 # Optimization
 persist.sys.default_scaling_gov=true
 persist.sys.activity_anim_perf_override=true
+
