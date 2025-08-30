@@ -26,6 +26,8 @@
 <!--- OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN    -->
 <!--- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                             -->
 
+<Include href="media_codecs_dolby_audio.xml" />
+
 <audio_effects_conf version="2.0" xmlns="http://schemas.android.com/audio/audio_effects_conf/v2_0">
     <libraries>
         <library name="bundle" path="libbundlewrapper.so"/>
