@@ -1,0 +1,125 @@
+{
+  "misc_modes": {
+    "none": {
+      "cpu.boost": 0,
+      "cpu.extra_margin": 0,
+      "cpu.low_latency": false,
+      "mtk_gpu.min_freq": 0,
+      "mtk_gpu.boost": 0,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 0,
+      "devfreq.gpu.min_freq": 0,
+      "cpu.max_power": 5000,
+      "devfreq.gpu.max_freq": 600
+    },
+    "tap": {
+      "cpu.boost": 30,
+      "cpu.extra_margin": 10,
+      "cpu.low_latency": true,
+      "mtk_gpu.min_freq": 100,
+      "mtk_gpu.boost": 200,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 0,
+      "devfreq.gpu.min_freq": 0
+    },
+    "swipe": {
+      "cpu.boost": 20,
+      "cpu.extra_margin": 20,
+      "cpu.low_latency": false,
+      "mtk_gpu.min_freq": 100,
+      "mtk_gpu.boost": 200,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 0,
+      "devfreq.gpu.min_freq": 0
+    },
+    "gesture": {
+      "cpu.boost": 30,
+      "cpu.extra_margin": 20,
+      "cpu.low_latency": true,
+      "mtk_gpu.min_freq": 200,
+      "mtk_gpu.boost": 300,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 3600,
+      "devfreq.gpu.min_freq": 0
+    },
+    "heavyload": {
+      "cpu.boost": 20,
+      "cpu.extra_margin": 25,
+      "cpu.low_latency": false,
+      "mtk_gpu.min_freq": 200,
+      "mtk_gpu.boost": 300,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 3600,
+      "devfreq.gpu.min_freq": 0
+    },
+    "jank": {
+      "cpu.boost": 40,
+      "cpu.extra_margin": 20,
+      "cpu.low_latency": true,
+      "mtk_gpu.min_freq": 200,
+      "mtk_gpu.boost": 400,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 4800,
+      "devfreq.gpu.min_freq": 0
+    },
+    "bigjank": {
+      "cpu.boost": 40,
+      "cpu.extra_margin": 30,
+      "cpu.low_latency": true,
+      "mtk_gpu.min_freq": 200,
+      "mtk_gpu.boost": 400,
+      "mtk_gpu.extra_margin": 0,
+      "mtk_gpu.low_latency": false,
+      "devfreq.ddr.min_freq": 4800,
+      "devfreq.gpu.min_freq": 0
+    }
+  },
+  "power_modes": {
+    "powersave": {
+      "cpu.max_power": {
+        "if cpuTemp > 90": 2000,
+        "else": 4000
+      },
+      "devfreq.gpu.max_freq": {
+        "if cpuTemp > 90": 500,
+        "else": 600
+      }
+    },
+    "balance": {
+      "cpu.max_power": {
+        "if cpuTemp > 90": 2000,
+        "if cpuTemp > 85": 6000,
+        "else": 8000
+      },
+      "devfreq.gpu.max_freq": {
+        "if cpuTemp > 90": 500,
+        "if cpuTemp > 85": 650,
+        "else": 700
+      }
+    },
+    "performance": {
+      "cpu.max_power": {
+        "if cpuTemp > 90": 2000,
+        "if cpuTemp > 85": 6000,
+        "if cpuTemp > 80": 9000,
+        "else": 10000
+      },
+      "devfreq.gpu.max_freq": {
+        "if cpuTemp > 90": 500,
+        "if cpuTemp > 85": 650,
+        "if cpuTemp > 80": 750,
+        "else": 800
+      }
+    },
+    "fast": {
+      "cpu.max_power": 10000,
+      "devfreq.gpu.max_freq": 1000
+    }
+  }
+}
