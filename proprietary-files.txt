@@ -1,4 +1,5 @@
 # All unpinned blobs are extracted from Spacewar-U3.2-260416-1140
+# lisa: OS2.0.11.0.UKOCNXM
 
 # ACDB
 vendor/etc/acdbdata/QRD/lahaina-yupikqrd-snd-card/QRD_Yupik_Bluetooth_cal.acdb
@@ -819,6 +820,7 @@ vendor/lib64/vendor.qti.gnss@4.3-service.so
 vendor/lib64/vendor.qti.gnss@4.3.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
+
 # GPS configs
 vendor/etc/apdr.conf
 vendor/etc/flp.conf
@@ -828,47 +830,20 @@ vendor/etc/izat.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
 vendor/etc/xtwifi.conf
+
 # Graphics (Adreno)
 vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
 vendor/gpu/kbc/unified_ksqs.bin
-vendor/lib/egl/eglSubDriverAndroid.so
-vendor/lib/egl/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
-vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libq3dtools_adreno.so
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/libC2D2.so
-vendor/lib/libCB.so
-vendor/lib/libOpenCL.so
-vendor/lib/libadreno_app_profiles.so
-vendor/lib/libadreno_utils.so
-vendor/lib/libc2d30_bltlib.so
-vendor/lib/libgsl.so
 vendor/lib/libkcl.so
 vendor/lib/libkernelmanager.so
-vendor/lib/libllvm-glnext.so
-vendor/lib/libllvm-qcom.so
 vendor/lib/vendor.qti.qspmhal@1.0.so
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/libC2D2.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
 vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libc2d30_bltlib.so
-vendor/lib64/libgsl.so
 vendor/lib64/libkcl.so
 vendor/lib64/libkernelmanager.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
 vendor/lib64/vendor.qti.qspmhal@1.0.so
+
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
 vendor/firmware/a660_sqe.fw
@@ -877,14 +852,45 @@ vendor/firmware/a660_zap.b01
 vendor/firmware/a660_zap.b02
 vendor/firmware/a660_zap.elf
 vendor/firmware/a660_zap.mdt
-# Graphics (Vulkan)
-vendor/lib/hw/vulkan.adreno.so
-vendor/lib64/hw/vulkan.adreno.so
+
+# Graphics (Adreno v530.57) - from lisa
+vendor/lib/egl/eglSubDriverAndroid.so|c4133b15d0a36f0775418724e09ce76681baa16d
+vendor/lib/egl/libEGL_adreno.so|0b6e09ba4dd6aaf221444fcc9adc40d2e597364a
+vendor/lib/egl/libGLESv1_CM_adreno.so|5ab7196d4c8ae861ff484cb6b1f4b5ac3c9738b4
+vendor/lib/egl/libGLESv2_adreno.so|658bdd966c4a6ad65dfc6d386701eca8231e493d
+vendor/lib/egl/libq3dtools_adreno.so|994551fb9b829caf80bb7a8f84b4b89cb3104ed9
+vendor/lib/egl/libq3dtools_esx.so|7b3204fea921c4b66d70cac00bf483c18d1cae20
+vendor/lib/hw/vulkan.adreno.so|546277c80ad1a5021680f8379abc5e1df54c3785
+vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
+vendor/lib/libCB.so|eb95ea2024d792fd3d59e6808fa54a2527822077
+vendor/lib/libOpenCL.so|d5642e23207996dbbc13273927127ecf04fced53
+vendor/lib/libadreno_utils.so|c1bd0d8826598aa0d84d1058357e63a595ecf6a1
+vendor/lib/libc2d30_bltlib.so|b98194a7b600b8a23d5e21edf14f3ee0b82f77d5
+vendor/lib/libgsl.so|8068ee5055a0004a75abc779ae5b90a0ed274f75
+vendor/lib/libllvm-glnext.so|290914c356c7ed6dedfcdb4ae9c3b1390b803dee
+vendor/lib/libllvm-qcom.so|01afd4f1a88d6fcd4e2123aa2e13add8ad4339fc
+vendor/lib64/egl/eglSubDriverAndroid.so|2692fd8aac6a9fd49faace2213b2631f7595afad
+vendor/lib64/egl/libEGL_adreno.so|74766c6648c64e6af2944fe1a983f1e70f548cbe
+vendor/lib64/egl/libGLESv1_CM_adreno.so|b9e14710b9c2be024e1fdf77d60266423e484047
+vendor/lib64/egl/libGLESv2_adreno.so|a6f71c95b1d983f4802693911929e5bf021ee69f
+vendor/lib64/egl/libq3dtools_adreno.so|172810bc218ab55fe95f628ab1c0d37833eb0021
+vendor/lib64/egl/libq3dtools_esx.so|48cfaa1d526e2c23372a73120cfadef640da325a
+vendor/lib64/hw/vulkan.adreno.so|a425c0aa632264fb582b654413522ccee105afe9
+vendor/lib64/libC2D2.so|0b4aa67ef7e86df61a1bfd7dfd4680e0f0d7104c
+vendor/lib64/libCB.so|7d503f8b3618ee3337f96a5af4757eccbf8fadf8
+vendor/lib64/libOpenCL.so|76d6d5f9e89d896665fdd06cbede3e21c92c8068
+vendor/lib64/libadreno_utils.so|ba4f51ee464cb4cb458ad0d04dca21513b637960
+vendor/lib64/libc2d30_bltlib.so|e330210916d482cdbf6fe942145a664679fa9c88
+vendor/lib64/libgsl.so|53074f803dded4e6db33c413e68ee18ada8c5952
+vendor/lib64/libllvm-glnext.so|95f645b8a33d4928b5e9e94bda1ef8977c8b2314
+vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
+
 # HotwordEnrollment
 product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
 product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
 vendor/firmware/yupik_ipa_fws.b00
@@ -894,8 +900,10 @@ vendor/firmware/yupik_ipa_fws.b03
 vendor/firmware/yupik_ipa_fws.b04
 vendor/firmware/yupik_ipa_fws.elf
 vendor/firmware/yupik_ipa_fws.mdt
+
 # IRQ balance
 vendor/bin/msm_irqbalance
+
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
@@ -907,6 +915,7 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
+
 # Listen
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2svarnn.so
@@ -926,6 +935,7 @@ vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
+
 # Media
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
@@ -958,6 +968,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
+
 # Media (Codec 2)
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
@@ -981,25 +992,31 @@ vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/vendor.qti.hardware.qconfig@1.0.so
+
 # Media configs
 vendor/etc/media/video_system_specs.json
 vendor/etc/media_yupik_v1/video_system_specs.json
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/video_system_specs.json
+
 # NFC configs
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
+
 # NFC firmware
 vendor/lib64/libpn557_fw.so
+
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib/libspcom.so
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
+
 # QCV
 vendor/bin/init.qti.qcv.sh
 vendor/etc/init/init.qti.qcv.rc
+
 # QMI
 system/etc/sysconfig/qti_whitelist.xml
 vendor/bin/qmipriod
@@ -1042,13 +1059,16 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmi_legacy.so
 vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices.so
+
 # QTI
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
+
 # Qualcomm SoC helper
 vendor/lib/libsoc_helper.so
 vendor/lib64/libsoc_helper.so
+
 # Qualcomm TEE connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
@@ -1058,6 +1078,7 @@ vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libQTEEConnector_listener.so
 vendor/lib64/libQTEEConnector_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+
 # Radio
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -1185,6 +1206,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+
 # Radio (IMS)
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
@@ -1253,9 +1275,11 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.1.so
 vendor/lib64/vendor.qti.ims.rcsuce@1.2.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
+
 # Richtap
 odm/etc/aac_richtap.config
 vendor/lib64/libaacvibrator.so
+
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
@@ -1279,6 +1303,7 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+
 # Sensors configs
 vendor/etc/sensors/config/kodiak_default_sensors.json
 vendor/etc/sensors/config/kodiak_dynamic_sensors.json
