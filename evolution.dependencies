@@ -11,4 +11,8 @@
     "repository"  : "vendor_nothing_Spacewar",
     "target_path" : "vendor_nothing_Spacewar"
   }
+  {
+    "repository"  : "hardware_dolby",
+    "target_path" : "hardware/dolby"
+  }
 ]
