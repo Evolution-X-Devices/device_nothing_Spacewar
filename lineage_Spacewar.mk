@@ -47,4 +47,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Spacewar \
-    BuildFingerprint="Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2509261631:user/release-keys"
