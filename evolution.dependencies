@@ -1,15 +1,15 @@
 [
   {
-    "repository": "android_kernel_nothing_sm7325",
+    "repository": "kernel_nothing_sm7325",
     "target_path": "kernel/nothing/sm7325"
   },
   {
-    "repository": "android_hardware_nothing",
+    "repository": "hardware_nothing",
     "target_path": "hardware/nothing"
   },
   {
     "repository"  : "vendor_nothing_Spacewar",
-    "target_path" : "vendor_nothing_Spacewar"
+    "target_path" : "vendor/nothing/Spacewar"
   },
   {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
