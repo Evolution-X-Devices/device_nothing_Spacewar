@@ -6,13 +6,18 @@
   {
     "repository": "android_hardware_nothing",
     "target_path": "hardware/nothing"
-  }
+  },
   {
     "repository"  : "vendor_nothing_Spacewar",
     "target_path" : "vendor_nothing_Spacewar"
-  }
+  },
   {
     "repository"  : "hardware_dolby",
     "target_path" : "hardware/dolby"
+  },
+  {
+    "repository"  : "nyxalune/vendor_nothing_Spacewar",
+    "remote"      : "github-non-los",
+    "target_path" : "vendor/nothing/Spacewar"
   }
 ]
