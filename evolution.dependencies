@@ -8,10 +8,6 @@
     "target_path": "hardware/nothing"
   },
   {
-    "repository"  : "vendor_nothing_Spacewar",
-    "target_path" : "vendor/nothing/Spacewar"
-  },
-  {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
     "remote"      : "github-non-los",
     "target_path" : "vendor/nothing/Spacewar"
