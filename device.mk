@@ -19,7 +19,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 #Call the Dolby Setup
-$(call inherit-product, hardware/dolby/dolby.mk)
+#$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)

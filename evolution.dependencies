@@ -12,12 +12,6 @@
     "target_path" : "vendor/nothing/Spacewar"
   },
   {
-    "repository"  : "nyxalune/hardware_dolby",
-    "remote"      : "github-non-los",
-    "branch"      : "sony"
-    "target_path" : "hardware/dolby"
-  },
-  {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
     "remote"      : "github-non-los",
     "target_path" : "vendor/nothing/Spacewar"
