@@ -109,7 +109,6 @@ vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libbatterylistener.so
 vendor/lib/libcomprcapture.so
-vendor/lib/libdrc.so
 vendor/lib/libexthwplugin.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
@@ -121,21 +120,16 @@ vendor/lib/libspkrprot.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib64/libaudcal.so
-vendor/lib/soundfx/libdiraceffect_NT.so
 vendor/lib/lib_lvacfs.so
 vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
-vendor/lib/libdirac.so
 vendor/lib/liblvacfs_wrapper.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 
 # Dirac
 system/etc/sysconfig/preinstalled-packages-audioeffect.xml
-system/priv-app/NothingAudioEffectService/NothingAudioEffectService.apk
-vendor/etc/dirac/dirac_resource.dar
-vendor/lib/libdirac.so
-vendor/lib/soundfx/libdiraceffect_NT.so
+system/priv-app/NothingAudioEffectService/NothingAudioEffectService.apk	
 vendor/lib64/libaudcal.so
 vendor/lib64/libadiertac.so
 
