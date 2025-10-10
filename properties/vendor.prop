@@ -230,6 +230,10 @@ ro.telephony.default_network=33,33
 # Resampler
 af.resampler.quality=7
 
+# ScrollOptimizer
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=1
+
 # Sensors
 persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.debug.hal=0
