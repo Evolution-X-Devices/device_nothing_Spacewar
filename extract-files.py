@@ -9,6 +9,7 @@ from extract_utils.fixups_blob import (
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
+    lib_fixup_remove,
     lib_fixups,
     lib_fixups_user_type,
 )
@@ -39,11 +40,22 @@ lib_fixups: lib_fixups_user_type = {
         'com.qualcomm.qti.dpm.api@1.0',
         'libmmosal',
         'vendor.qti.hardware.wifidisplaysession@1.0',
+        'vendor.qti.hardware.iop@2.0',
+        'vendor.qti.hardware.perf@2.0',
+        'vendor.qti.hardware.perf@2.1',
+        'vendor.qti.hardware.perf@2.2',
+        'vendor.qti.hardware.perf2-V1-ndk',
         'vendor.qti.imsrtpservice@3.0',
+        'vendor.qti.qspmhal-V1-ndk',
     ): lib_fixup_vendor_suffix,
+    'libthermalclient': lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib64/libmemperfd.so': blob_fixup()
+        .replace_needed('libprotobuf-cpp-lite-21.7.so', 'libprotobuf-cpp-lite-21.12.so'),
+    'vendor/lib64/libprekill.so': blob_fixup()
+        .replace_needed('libprotobuf-cpp-full-21.7.so', 'libprotobuf-cpp-full-21.12.so'),
     ('vendor/lib64/libwvhidl.so', 'vendor/lib/mediadrm/libwvdrmengine.so', 'vendor/lib64/mediadrm/libwvdrmengine.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     ('vendor/lib64/libgf_hal.so'): blob_fixup()

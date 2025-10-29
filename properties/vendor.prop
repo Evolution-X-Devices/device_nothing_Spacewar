@@ -93,6 +93,9 @@ vendor.camera.aux.packagelist=com.snapchat.android
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
 
+# Disable excessive logging
+log.tag.vendor.qti.hardware.servicetrackeraidl-service=E
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.dex2oat-cpu-set=4,5,6,7
@@ -217,6 +220,19 @@ debug.performance.tuning=1
 # QTEE
 persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
+
+# Perf
+ro.vendor.perf-hal.ver=3.0
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.qspm.enable=true
+ro.vendor.beluga.p=0x3
+ro.vendor.beluga.c=0x4800
+ro.vendor.beluga.s=0x900
+ro.vendor.beluga.t=0x240
+ro.vendor.perf.scroll_opt=true
+vendor.pasr.activemode.enabled=true
+vendor.perf.framepacing.enable=1
+vendor.power.pasr.enabled=true
 
 # Radio
 persist.radio.multisim.config=dsds
