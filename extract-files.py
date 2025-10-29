@@ -40,6 +40,7 @@ lib_fixups: lib_fixups_user_type = {
         'com.qualcomm.qti.dpm.api@1.0',
         'libmmosal',
         'vendor.qti.hardware.wifidisplaysession@1.0',
+        'vendor.qti.hardware.limits@1.0',
         'vendor.qti.hardware.iop@2.0',
         'vendor.qti.hardware.perf@2.0',
         'vendor.qti.hardware.perf@2.1',

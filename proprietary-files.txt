@@ -908,7 +908,7 @@ vendor/lib/libkcl.so
 vendor/lib/libkernelmanager.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
-vendor/lib/vendor.qti.qspmhal@1.0.so
+vendor/lib/vendor.qti.qspmhal@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -926,7 +926,7 @@ vendor/lib64/libkcl.so
 vendor/lib64/libkernelmanager.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
-vendor/lib64/vendor.qti.qspmhal@1.0.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Graphics firmware
 vendor/firmware/a660_gmu.bin
@@ -1075,6 +1075,8 @@ system_ext/etc/seccomp_policy/perfservice.policy|0101969bfecbb5b93b90156c1092c2d
 system_ext/lib/libbeluga.so|2289625378eda2d36fbdbd79df05a843ded68931
 system_ext/lib/libcomposerextn.qti.so|2a03a6370650492cce95dd2b7a5b19eccd8912c3
 system_ext/lib/libdolphin.so|3e2e607d40b996045ec5acad91db950f47924bfd
+system_ext/lib/libjpegdecoder_ext.so|deaa5dd6048aa0c8d06aba5f9f63d6ccf4996845
+system_ext/lib/libjpegencoder_ext.so|4aced86a2bf490c58a5ac5b8fd360e000187a228
 system_ext/lib/liblayerext.qti.so|5c3b10a324e3c784f633265ed524f241b8eab92e
 system_ext/lib/libpenguin_impl.so|3578c2ee6cadc1e2188258363b1e2478226975f4
 system_ext/lib/libpenguin.so|e8898c32935ad7dd5fc758fe31a277cda285258e
@@ -1101,6 +1103,8 @@ system_ext/lib/vendor.qti.qspmhal-V1-ndk.so|4bfb2447087ce4b527055fc5d1f1159f8860
 system_ext/lib64/libbeluga.so|2b97d230217d277895573095363b474a32f289cc
 system_ext/lib64/libcomposerextn.qti.so|30a431fec867d244a8cddc2c1b032dc7bda24901
 system_ext/lib64/libdolphin.so|ea6bf02cefaf424e3215408a483507c0c78143e9
+system_ext/lib64/libjpegdecoder_ext.so|df58886e7cb6132e327978b9965ec68614fb877a
+system_ext/lib64/libjpegencoder_ext.so|043cdf6a7d04896e3f261834eeb1cdd34e20450a
 system_ext/lib64/liblayerext.qti.so|4fe7c3288ee22ac285561698396e9ca6a2748547
 system_ext/lib64/libpenguin_impl.so|b7ba7e8b8708a3e367efc8f35da68a0ad287765b
 system_ext/lib64/libpenguin.so|1db0b9a7b3ae9c9edd0185817b71607228d2e147
@@ -1153,6 +1157,7 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.perf2.xml|e2839531d48d54f2bd0c61a8
 vendor/etc/vintf/manifest/vendor.qti.hardware.power.powermodule.xml|8ca370c8ed8b283f961bb3b82b3e3c49f25f1206
 vendor/etc/vintf/manifest/vendor.qti.qspmhal-service.xml|b070cf5f9bbebe6d00ec7d845d7d60922656ac45
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetrackeraidl-service.xml|efe6b149eaa52c588817714cadf6db2f7f3a351c
+vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so|d654f16c7a0a82d521d863f96d6ef47a7a5040dd
 vendor/lib64/libadaptlaunch.so|ab5fd1ae769d7c67d4b327f7f945429aa50feaa3
 vendor/lib64/libaodoptfeature.so|8fc00e532eb2c1722e078a338e2bc7de8b2ad7dd
 vendor/lib64/libapengine.so;DISABLE_CHECKELF|7b27495df04d932f10ccde104413b012a7c89109
@@ -1612,7 +1617,7 @@ vendor/etc/thermal.sgame.conf
 vendor/etc/thermal.super.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/vendor.qti.hardware.limits@1.0.so
+vendor/lib64/vendor.qti.hardware.limits@1.0.so;MODULE_SUFFIX=_vendor
 
 # Time
 vendor/app/TimeService/TimeService.apk
