@@ -1126,9 +1126,9 @@ system_ext/lib64/vendor.qti.qspmhal@1.0.so|efb34fb99dc8e285adbd14ad2d9d7bc678897
 system_ext/lib64/vendor.qti.qspmhal-V1-ndk.so|d2011a7a166deb026021454b9287161f777da0e5
 system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
 system/etc/permissions/com.qualcomm.qti.UxPerformance.xml|d92749d80c5d956db8251b08ea6388d3f107a32c
-system/framework/QPerformance.jar|3772f2f0fb34bd85e07090048e0a5000bda64411
+system/framework/QPerformance.jar;BOOT_JAR|3772f2f0fb34bd85e07090048e0a5000bda64411
 system/framework/QXPerformance.jar|ef0b09f03574bcdd3ad98bbd5b5830522176110d
-system/framework/UxPerformance.jar|e8e4935d439ea759016ff2358a78ce4b752f1bcf
+system/framework/UxPerformance.jar;BOOT_JAR|e8e4935d439ea759016ff2358a78ce4b752f1bcf
 system/lib/vendor.qti.hardware.perf2-V1-ndk.so|4f2dd2ca95e9f9a2c1f954ca7b6035fdb50ebb84
 system/lib/vendor.qti.MemHal-V1-ndk.so|04c0908d89d44b89149fce53cbc5be8f7a85f09f
 system/lib64/vendor.qti.hardware.perf2-V1-ndk.so|e7fded0680664781ec34cf36f1cdf1f0414aa714
