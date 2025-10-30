@@ -1094,10 +1094,6 @@ system_ext/lib/libsmomoconfig.qti.so|b4fcd4ced4840c665037ea14747ba02525ceb043
 system_ext/lib/vendor.qti.hardware.limits@1.0.so|9adf5ea9298c7f167c7402a75af0ee72ae72a501
 system_ext/lib/vendor.qti.hardware.limits@1.1.so|cf1e317d8b4c5dd15a12b759447b09a7ec9b1af7
 system_ext/lib/vendor.qti.hardware.iop@2.0.so|b033ed0fbaceafdf77f73fbceb1ea884d1ca1dce
-system_ext/lib/vendor.qti.hardware.perf@2.0.so|83daaaa1dfb1aeddd5d3fbe56b235a3ed065f043
-system_ext/lib/vendor.qti.hardware.perf@2.1.so|85793a252a53066e4d4b38491bf745d8e241bd19
-system_ext/lib/vendor.qti.hardware.perf@2.2.so|3130bfbedba5e40c1c1ba277a0775e03687cc320
-system_ext/lib/vendor.qti.hardware.perf@2.3.so|cb3414aec2543198a540f1c2b4c401122cf5192e
 system_ext/lib/vendor.qti.qspmhal@1.0.so|631ccca84a8d8368bdd146795b09e5a4e5698bbc
 system_ext/lib/vendor.qti.qspmhal-V1-ndk.so|4bfb2447087ce4b527055fc5d1f1159f8860dd02
 system_ext/lib64/libbeluga.so|2b97d230217d277895573095363b474a32f289cc
@@ -1122,10 +1118,6 @@ system_ext/lib64/libsmomoconfig.qti.so|b1902e47092232b69748267116d29dcba90f8580
 system_ext/lib64/vendor.qti.hardware.limits@1.0.so|70ed2f59410a09f999afa87b35f267327e8307bf
 system_ext/lib64/vendor.qti.hardware.limits@1.1.so|1062f2bb68d77e356c8bac4846dfb2759be5bdb1
 system_ext/lib64/vendor.qti.hardware.iop@2.0.so|b0a2ee3c85e8253dbe0da554fe5b96e622181a7a
-system_ext/lib64/vendor.qti.hardware.perf@2.0.so|717d0d77fb2ac4a7c0b86cea0e9e4c414ef5b921
-system_ext/lib64/vendor.qti.hardware.perf@2.1.so|14aac5cd46040205ff8087e744ca248ffb7c8458
-system_ext/lib64/vendor.qti.hardware.perf@2.2.so|02f54200d96a9737e35bef6d6c3913f819fe2480
-system_ext/lib64/vendor.qti.hardware.perf@2.3.so|dd901b7cff223cd0c93b9d422ca91da2e6278d20
 system_ext/lib64/vendor.qti.qspmhal@1.0.so|efb34fb99dc8e285adbd14ad2d9d7bc6788976a2
 system_ext/lib64/vendor.qti.qspmhal-V1-ndk.so|d2011a7a166deb026021454b9287161f777da0e5
 system/etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
@@ -1200,10 +1192,6 @@ vendor/lib64/libstandbyfeature.so|bf04886bf18caa1cdccd0b9935d530be957b60dc
 vendor/lib64/libvideooptfeature.so|9598b48af9d42b09a4c69e2f46ae8ba9152bc564
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|446bf9e50c7bfc0d2f3edc1b058d035c080526b8
 vendor/lib64/vendor.qti.hardware.iop@2.0.so;MODULE_SUFFIX=_vendor|594966ee0469a4080a8318ebb798c9708f4af90f
-vendor/lib64/vendor.qti.hardware.perf@2.0.so;MODULE_SUFFIX=_vendor|8fc8b5d6fef224c8cd9ea04db83e0654462d0974
-vendor/lib64/vendor.qti.hardware.perf@2.1.so;MODULE_SUFFIX=_vendor|18300e614df9a8bbf94e6d57f6a09ae9c55e621a
-vendor/lib64/vendor.qti.hardware.perf@2.2.so;MODULE_SUFFIX=_vendor|b91231cf0a424702bc94d3e1b574e232d3c2b4c6
-vendor/lib64/vendor.qti.hardware.perf@2.3.so;MODULE_SUFFIX=_vendor|69022651e10b325ff781e15d338e99815ac808cd
 vendor/lib64/vendor.qti.hardware.perf2-V1-ndk.so;MODULE_SUFFIX=_vendor|f891918a497a55b0b6ec12eb94a5d3172d76c622
 vendor/lib64/vendor.qti.hardware.power.powermodule-V1-ndk.so|18d9a9e28f2dc36a4e9c734a05dfc36ec22f86e6
 vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so|0c4fad4b624c2795cf93e49bbad9def54ddf9353
