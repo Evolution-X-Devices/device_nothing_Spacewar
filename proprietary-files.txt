@@ -1141,6 +1141,10 @@ system/lib64/vendor.qti.MemHal-V1-ndk.so|77ff74b38b0cd3efec502b8035d579a7974af56
 # IRQBalance from LA.VENDOR.13.2.6.r1-02200-KAILUA.0
 vendor/bin/msm_irqbalance|e9bb0e6659ae494e03627bb9c11301e483dedeac
 
+# Perfd - from bsp
+vendor/lib/libqti-perfd-client.so|729e16fadcce9f52b804263d6e2ddfde44a5bc9d
+vendor/lib64/libqti-perfd-client.so|d9f52a897f1a5e23bf53d3f27d0c2bf107e3f39b
+
 # Perf (vendor) - from qcc
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|6a9ecc12c78701c3bced39b0b8baa8a24bc6b831
 vendor/bin/hw/vendor.qti.hardware.perf2-hal-service|be086e5768ec87fac63b838fbda26f1ee838bd39
@@ -1184,7 +1188,6 @@ vendor/lib64/libqapesdk.so;DISABLE_CHECKELF|d4c131ebb3a1adacb6cb1f796987c71b841a
 vendor/lib64/libqspm-mem-utils-vendor.so|5286e64fd4f53006994fe27700c7c3b708461850
 vendor/lib64/libqti-iopd-client.so|32be93922b62eb9583519530c5e4dcb5f24407a7
 vendor/lib64/libqti-iopd.so|4a6bf982a910c5a5600943cec38db27192e51474
-vendor/lib64/libqti-perfd-client.so|d9f52a897f1a5e23bf53d3f27d0c2bf107e3f39b
 vendor/lib64/libqti-perfd.so;DISABLE_CHECKELF|fb668117e57fec1258e444b5424fec49e84b5896
 vendor/lib64/libqti-qesdk-secure.so|ebe671af89dd12fc58c7d4755db95eaf688c3828
 vendor/lib64/libqti-util.so|c5864c3466c6f3f1e25f71750c0571d041f7e8ed
