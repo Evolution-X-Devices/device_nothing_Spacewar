@@ -1,0 +1,1 @@
+get_prop(vendor_hal_poweroptservice_qti, vendor_soc_name_prop)
