@@ -1,3 +1,6 @@
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
 # Audio
 use.voice.path.for.pcm.voip=true
 
