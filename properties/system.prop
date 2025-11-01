@@ -1,6 +1,9 @@
 # Pre-Rendering
 ro.vendor.perf.scroll_opt=true
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true	
+
 # Audio
 use.voice.path.for.pcm.voip=true
 
