@@ -15,20 +15,17 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-#GMS Flags
-TARGET_BUILD_GAPPS := true
-WITH_GMS_COMMS_SUITE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_STOCK_AICORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+#Evolution X Flags
+TARGET_INCLUDE_ACCORD := true
+TARGET_SUPPORT_BOOT_ANIMATIONS := true
+BUILD_BCR := true
+WITH_GMS := true
+
 #Blur
 TARGET_ENABLE_BLUR := true
 
 #Fingerprint
-EXTRA_UDFPS_ICONS := true
 TARGET_HAS_UDFPS := true
-TARGET_UDFPS_ANIMATIONS := true
 
 #Boot Animation
 TARGET_SCREEN_HEIGHT := 2400
