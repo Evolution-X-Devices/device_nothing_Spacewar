@@ -48,6 +48,9 @@ TARGET_GLOBAL_THINLTO := true
 HWUI_COMPILE_FOR_PERF := true
 TARGET_USES_VULKAN := true
 
+# Camera
+$(call soong_config_set,camera,override_format_from_reserved,true)
+
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_CMDLINE := \
