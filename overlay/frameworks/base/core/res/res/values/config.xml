@@ -575,4 +575,9 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
           vibrator is capable of subtle vibrations -->
      <bool name="config_vibrateOnIconAnimation">true</bool>
+    
+    <!-- Enables or disables haptic effect when the text insertion/selection handle is moved
+         manually by the user. Off by default, since the expected haptic feedback may not be
+         available on some devices. -->
+    <bool name="config_enableHapticTextHandle">true</bool>
 </resources>
