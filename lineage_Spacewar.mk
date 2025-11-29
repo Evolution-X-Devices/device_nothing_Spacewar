@@ -21,6 +21,9 @@ TARGET_SUPPORT_BOOT_ANIMATIONS := true
 BUILD_BCR := true
 WITH_GMS := true
 
+# Enforce Product Packages Existance.
+TARGET_DISABLE_EPPE := true
+
 #Blur
 TARGET_ENABLE_BLUR := true
 
