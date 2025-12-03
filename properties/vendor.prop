@@ -164,6 +164,7 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.wcg_composition_dataspace=143261696
 persist.mm.enable.prefetch=true
 debug.sf.latch_unsignaled=0
+debug.sf.enable_egl_image_tracker=0
 
 # Fling
 ro.min.fling_velocity=160 
