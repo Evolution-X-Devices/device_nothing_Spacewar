@@ -26,6 +26,9 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# call gamebar
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
 
