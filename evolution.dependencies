@@ -13,5 +13,9 @@
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
     "remote"      : "github-non-los",
     "target_path" : "vendor/nothing/Spacewar"
+  },
+  {
+    "repository": "packages_apps_GameBar",
+    "target_path": "packages/apps/GameBar"
   }
 ]
