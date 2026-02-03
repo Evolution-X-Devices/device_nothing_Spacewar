@@ -1,11 +1,13 @@
 [
   {
-    "repository": "kernel_nothing_sm7325",
+    "repository" : "kernel_nothing_sm7325",
+    "branch" : "bq1-test",
     "target_path": "kernel/nothing/sm7325"
   },
   {
     "repository": "hardware_nothing",
-    "target_path": "hardware/nothing"
+    "target_path": "hardware/nothing",
+    "branch" : "bq1-tmp"
   },
   {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
