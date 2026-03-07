@@ -40,11 +40,6 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
-    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
-         May be less than the minimum allowed brightness setting
-         that can be set by the user. -->
-    <integer name="config_screenBrightnessDoze">255</integer>
-
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
     <string name="config_dozeTapSensorType" translatable="false">org.lineageos.sensor.single_touch</string>
 
