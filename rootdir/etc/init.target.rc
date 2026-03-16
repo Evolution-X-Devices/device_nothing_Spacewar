@@ -418,3 +418,7 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_freq "0:1804800 1:1804800 2:1804800 3:1804800 4:2016000 5:2016000 6:2016000 7:2016000"
     write /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_ms 2000
     write /sys/devices/system/cpu/cpu_boost/input_boost_ms 0
+
+# Stop statsd
+on property:sys.boot_completed=1
+    stop statsd
