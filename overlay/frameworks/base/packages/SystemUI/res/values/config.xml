@@ -12,4 +12,7 @@
     
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
+     
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 </resources>
