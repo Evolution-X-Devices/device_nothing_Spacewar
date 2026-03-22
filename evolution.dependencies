@@ -1,7 +1,7 @@
 [
   {
     "repository" : "kernel_nothing_sm7325",
-    "branch" : "bq1-test",
+    "branch" : "bq2",
     "target_path": "kernel/nothing/sm7325"
   },
   {
@@ -11,6 +11,7 @@
   },
   {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
+    "branch"      : "bka",	
     "remote"      : "github-non-los",
     "target_path" : "vendor/nothing/Spacewar"
   }
