@@ -241,6 +241,10 @@ persist.vendor.sensors.debug.hal=0
 persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
+# Silence BLASTBufferQueue ENOSYS
+persist.log.tag.SurfaceControl=S
+persist.log.tag.BLASTBufferQueue=S
+
 # SoC
 ro.soc.manufacturer=QTI
 
