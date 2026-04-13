@@ -1,0 +1,22 @@
+[
+  {
+    "device": "Spacewar",
+    "maintainer": "Bera (nyxalune)",
+    "github": "nyxalune",
+    "status": "active",
+    "firmware": {
+      "required": false,
+      "url": " "
+    },
+    "ci": {
+      "enabled": true,
+      "schedule": "weekly",
+      "build_target": "user",
+      "build_type": "both"
+    },
+    "installation_images": {
+      "bka": ["boot", "vendor_boot"],
+      "bka-vanilla": ["boot", "vendor_boot"]
+    }
+  }
+]
