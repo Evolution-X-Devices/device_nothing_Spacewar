@@ -18,5 +18,9 @@
   {
     "repository": "packages_apps_GameBar",
     "target_path": "packages/apps/GameBar"
+  },
+  {
+    "repository": "packages_apps_ParanoidGlyph",
+    "target_path": "packages/apps/ParanoidGlyph"
   }
 ]
