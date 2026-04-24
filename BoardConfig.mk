@@ -46,7 +46,6 @@ TARGET_GLOBAL_THINLTO := true
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
-TARGET_USES_VULKAN := true
 
 # Camera
 $(call soong_config_set,camera,override_format_from_reserved,true)
