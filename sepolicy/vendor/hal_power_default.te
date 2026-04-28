@@ -1,0 +1,4 @@
+# Powerhints
+allow hal_power_default proc:file rw_file_perms;
+allow hal_power_default vendor_sysfs_msm_perf:dir r_dir_perms;
+allow hal_power_default vendor_sysfs_msm_perf:file rw_file_perms;
