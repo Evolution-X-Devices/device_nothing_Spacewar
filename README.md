@@ -1,4 +1,4 @@
-Copyright (C) 2023-2024 The LineageOS Project Spacewar
+Copyright (C) 2023-2026 The LineageOS Project Spacewar
 
 Device configuration for Nothing Phone (1)
 =============================================================
