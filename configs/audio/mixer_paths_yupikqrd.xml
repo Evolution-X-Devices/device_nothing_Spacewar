@@ -2356,8 +2356,8 @@
         <ctl name="ADC4 ChMap" value="SWRM_TX2_CH2"/>
         <ctl name="ADC4_MIXER Switch" value="1"/>
         <ctl name="ADC4 MUX" value="INP5"/>
-        <ctl name="ADC1 Volume" value="6"/>
-        <ctl name="ADC4 Volume" value="6"/>
+        <ctl name="ADC1 Volume" value="10"/>
+        <ctl name="ADC4 Volume" value="10"/>
     </path>
     <path name="voice-rec-mic">
         <path name="handset-mic"/>
