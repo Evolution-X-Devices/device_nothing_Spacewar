@@ -540,9 +540,6 @@
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">120</integer>
 
-    <!-- Whether device has turbo power charging support -->
-    <bool name="config_hasTurboPowerCharger">true</bool>
-
     <!-- Expected value from fast charging status file  -->
     <string name="config_oemFastChargerStatusValue" translatable="false">3</string>
 
