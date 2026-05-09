@@ -35,7 +35,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := Projectinfinityx_Spacewar
+PRODUCT_NAME := infinity_Spacewar
 PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
