@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/Projectinfinityx_Spacewar.mk
+    $(LOCAL_DIR)/infinity_spacewar.mk
