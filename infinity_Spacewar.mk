@@ -33,10 +33,11 @@ TARGET_HAS_UDFPS := true
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+INFINITY_MAINTAINER := "iplaynasty"
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := infinity_Spacewar
-PRODUCT_DEVICE := Spacewar
+PRODUCT_NAME := infinity_spacewar
+PRODUCT_DEVICE := spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
 PRODUCT_MANUFACTURER := Nothing
