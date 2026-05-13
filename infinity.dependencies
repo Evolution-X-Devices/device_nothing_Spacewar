@@ -1,13 +1,13 @@
 [
   {
-    "repository" : "kernel_nothing_sm7325",
+    "repository" : "Evolution-X-Devices/kernel_nothing_sm7325",
+    "remote"     : "github-non-los",
     "branch" : "bq2",
     "target_path": "kernel/nothing/sm7325"
   },
   {
     "repository": "hardware_nothing",
-    "target_path": "hardware/nothing",
-    "branch" : "bq1-tmp"
+    "target_path": "hardware/nothing"
   },
   {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
