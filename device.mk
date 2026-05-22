@@ -278,6 +278,13 @@ PRODUCT_COPY_FILES += \
 # Override 120 for SurfaceFlinger frame_rate_category_m8n
 $(call soong_config_set,surfaceflinger,frame_rate_category_min,120)
 
+# Thermal HAL
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-service.pixel
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
+
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
