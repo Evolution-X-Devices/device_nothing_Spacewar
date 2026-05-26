@@ -257,6 +257,9 @@ log.tag.BaseDepthController=WARN
 # Silence AiAiSuggestUi 
 log.tag.AiAiSuggestUi=WARN
 
+# Silence WindowRootViewBinder
+log.tag.WindowRootViewBinder=ERROR
+
 # SoC
 ro.soc.manufacturer=QTI
 
