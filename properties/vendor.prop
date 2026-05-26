@@ -251,6 +251,9 @@ persist.vendor.sensors.sync_request=true
 persist.log.tag.SurfaceControl=S
 persist.log.tag.BLASTBufferQueue=S
 
+# Silence BaseDepthController
+log.tag.BaseDepthController=WARN
+
 # SoC
 ro.soc.manufacturer=QTI
 
