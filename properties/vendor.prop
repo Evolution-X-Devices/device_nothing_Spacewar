@@ -254,6 +254,9 @@ persist.log.tag.BLASTBufferQueue=S
 # Silence BaseDepthController
 log.tag.BaseDepthController=WARN
 
+# Silence AiAiSuggestUi 
+log.tag.AiAiSuggestUi=WARN
+
 # SoC
 ro.soc.manufacturer=QTI
 
