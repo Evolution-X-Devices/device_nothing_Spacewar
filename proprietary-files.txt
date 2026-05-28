@@ -896,9 +896,6 @@ vendor/firmware/yupik_ipa_fws.elf
 vendor/firmware/yupik_ipa_fws.mdt
 # IRQ balance
 vendor/bin/msm_irqbalance
-# Kernel
-vendor/bin/vendor_modprobe.sh
-vendor/lib/modules/modules.blocklist:vendor_dlkm/lib/modules/modules.blocklist
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc
