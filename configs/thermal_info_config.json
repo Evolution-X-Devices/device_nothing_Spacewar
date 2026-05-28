@@ -395,11 +395,37 @@
       "Type": "SKIN",
       "HotThreshold": [
         "NAN",
-        40,
+        44,
+        46,
+        48,
+        50,
+        52,
+        62
+      ],
+      "HotHysteresis": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "VrThreshold": "NAN",
+      "Multiplier": 0.001,
+      "Monitor": true,
+      "LogLevel": 5
+    },
+    {
+      "Name": "modem-skin-usr",
+      "Type": "SKIN",
+      "HotThreshold": [
+        "NAN",
+        42,
         44,
         48,
+        50,
         52,
-        56,
         62
       ],
       "HotHysteresis": [
