@@ -342,6 +342,10 @@ $(call soong_config_set_bool,stagefright,target_disable_thumbnail_block_model,tr
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Pixel Features Spoof (for Google Photos)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sysconfig_features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/sysconfig_features.xml
+
 # Neural Networks
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
