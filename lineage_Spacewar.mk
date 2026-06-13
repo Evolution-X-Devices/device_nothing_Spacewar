@@ -20,6 +20,9 @@ TARGET_INCLUDE_ACCORD := true
 TARGET_SUPPORT_BOOT_ANIMATIONS := true
 BUILD_BCR := true
 
+# Bypass Charging
+BYPASS_CHARGE_SUPPORTED := true
+
 # Enforce Product Packages Existance.
 TARGET_DISABLE_EPPE := true
 
