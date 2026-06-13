@@ -311,8 +311,8 @@
     <ctl name="ADC2 ChMap" value="ZERO"/>
     <ctl name="ADC3 ChMap" value="ZERO"/>
     <ctl name="ADC4 ChMap" value="ZERO"/>
-    <ctl name="WSA_RX0 Digital Volume" value="84"/>
-    <ctl name="WSA_RX1 Digital Volume" value="84"/>
+    <ctl name="WSA_RX0 Digital Volume" value="82"/>
+    <ctl name="WSA_RX1 Digital Volume" value="82"/>
     <ctl name="RX_RX0 Digital Volume" value="84"/>
     <ctl name="RX_RX1 Digital Volume" value="84"/>
     <ctl name="RX_RX2 Digital Volume" value="84"/>
