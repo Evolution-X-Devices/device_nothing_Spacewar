@@ -44,6 +44,10 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    ('system/framework/WfdCommon.jar'): blob_fixup()
+        .apktool_patch('blob-patches/WfdCommon.patch'),
+    ('system_ext/lib64/libwfdservice.so'): blob_fixup()
+        .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
     ('vendor/lib64/libwvhidl.so', 'vendor/lib/mediadrm/libwvdrmengine.so', 'vendor/lib64/mediadrm/libwvdrmengine.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     ('vendor/lib64/libgf_hal.so'): blob_fixup()
