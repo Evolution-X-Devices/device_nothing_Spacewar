@@ -11,14 +11,15 @@
   },
   {
     "repository"  : "nyxalune/vendor_nothing_Spacewar",
-    "branch"      : "bka",	
+    "branch"      : "bka",
     "remote"      : "github-non-los",
     "target_path" : "vendor/nothing/Spacewar"
   },
   {
     "repository": "packages_apps_ParanoidGlyph",
     "target_path": "packages/apps/ParanoidGlyph"
-  }
+  },
+  {
     "repository"  : "swiitch-OFF-Lab/hardware_dolby",
     "branch"      : "sony-1.5",
     "remote"      : "github-non-los",
@@ -26,3 +27,4 @@
   },
 
 ]
+
