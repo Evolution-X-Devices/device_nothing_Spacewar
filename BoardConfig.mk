@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2022-2025 The LineageOS Project
-#
+# Copyright (C) 2025-2026 The Evolution X Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
