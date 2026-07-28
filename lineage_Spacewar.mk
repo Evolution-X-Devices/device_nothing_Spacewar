@@ -16,7 +16,7 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 #Evolution X Flags
-TARGET_INCLUDE_ACCORD := true
+TARGET_INCLUDE_GRAMOPHONE := true
 TARGET_SUPPORT_BOOT_ANIMATIONS := true
 BUILD_BCR := true
 
