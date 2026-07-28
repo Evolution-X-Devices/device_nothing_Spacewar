@@ -1,7 +1,7 @@
 #
 # SPDX-FileCopyrightText: 2022-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
-#
+# Copyright (C) 2025-2026 The Evolution X Project
 
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
