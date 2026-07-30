@@ -90,6 +90,10 @@ TARGET_SCREEN_WIDTH := 1080
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# Dolby
+PRODUCT_PACKAGES += \
+    DolbyAtmos
+
 # Paranoid Glyph
 PRODUCT_PACKAGES += \
     ParanoidGlyphPhone1 \
