@@ -22,11 +22,13 @@
   {
     "repository"  : "nyxalune/android_hardware_dolby",
     "remote"      : "github-non-los",
+    "branch"      : "sony",
     "target_path" : "hardware/dolby"
   },
   {
-    "repository"  : "nyxalune/packages_app_DolbyUI",
+    "repository"  : "nyxalune/packages_apps_DolbyUI",
     "remote"      : "github-non-los",
+    "branch"      : "a",
     "target_path" : "packages/apps/DolbyUI"
   }
 ]
