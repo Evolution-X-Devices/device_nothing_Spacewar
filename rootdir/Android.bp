@@ -85,3 +85,16 @@ prebuilt_etc {
     src: "etc/ueventd.qcom.rc",
     vendor: true,
 }
+
+prebuilt_etc {
+    name: "init.lahaina.perf.rc",
+    src: "etc/init.lahaina.perf.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.lahaina.perf.sh",
+    src: "bin/init.lahaina.perf.sh",
+    vendor: true,
+}
