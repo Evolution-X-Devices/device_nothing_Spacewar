@@ -1,8 +1,8 @@
 [
   {
-    "repository" : "Evolution-X-Devices/kernel_nothing_sm7325",
+    "repository" : "fadingintoether/kernel_nothing_sm7325",
     "remote"     : "github-non-los",
-    "branch" : "bq2",
+    "branch" : "bka",
     "target_path": "kernel/nothing/sm7325"
   },
   {
