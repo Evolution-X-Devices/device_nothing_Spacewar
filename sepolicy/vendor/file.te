@@ -3,3 +3,6 @@ type fingerprint_data_file, data_file_type, file_type;
 
 # Torch
 type sysfs_torch, sysfs_type, fs_type;
+
+# USB
+type vendor_sysfs_usb_c, sysfs_type, fs_type;
