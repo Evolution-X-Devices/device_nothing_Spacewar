@@ -118,6 +118,9 @@ vendor.gralloc.disable_ubwc=0
 persist.vendor.dpm.idletimer.mode=default
 persist.vendor.dpmhalservice.enable=1
 
+# Fingerprint
+persist.vendor.fingerprint.sensor_location=540|2170|94
+
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
