@@ -33,11 +33,11 @@
             <nits>300.0</nits>
         </point>
         <point>
-            <value>0.858364</value>
+            <value>0.858363</value>
             <nits>480.0</nits>
         </point>
         <point>
-            <value>0.99975</value>
+            <value>0.99976</value>
             <nits>672.0</nits>
         </point>
         <point>
@@ -46,16 +46,14 @@
         </point>
     </screenBrightnessMap>
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.858364</transitionPoint>
-        <minimumLux>6000.0</minimumLux>
+        <transitionPoint>0.6</transitionPoint>
+        <minimumLux>7500.0</minimumLux>
         <timing>
-            <!-- Time limitation for HBM-->
-            <timeWindowSecs>0</timeWindowSecs>
-            <timeMaxSecs>0</timeMaxSecs>
-            <timeMinSecs>0</timeMinSecs>
+            <!-- allow for 5 minutes out of every 30 minutes -->
+            <timeWindowSecs>1800</timeWindowSecs>
+            <timeMaxSecs>300</timeMaxSecs>
+            <timeMinSecs>60</timeMinSecs>
         </timing>
-        <!-- Thermal limitation for HBM -->
-        <thermalStatusLimit>critical</thermalStatusLimit>
         <minimumHdrPercentOfScreen>0.4</minimumHdrPercentOfScreen>
         <!--sdrHdrRatioMap, backed by spline, must have at least two entries -->
         <sdrHdrRatioMap>
