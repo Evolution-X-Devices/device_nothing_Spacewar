@@ -239,9 +239,6 @@ ro.oem_unlock_supported=1
 # Perf
 vendor.perf.framepacing.enable=1
 
-# Performance
-debug.performance.tuning=1
-
 # QTEE
 persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
