@@ -104,10 +104,6 @@ USE_DEX2OAT_DEBUG := false
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 31
 
-# Dolby
-PRODUCT_PACKAGES += \
-    DolbyAtmos
-
 # Filesystem
 PRODUCT_PACKAGES += \
     e2fsck_ramdisk \

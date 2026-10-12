@@ -20,13 +20,11 @@
     "target_path": "packages/apps/ParanoidGlyph"
   },
   {
-    "repository"  : "nyxalune/android_hardware_dolby",
+    "repository"  : "swiitch-OFF-Lab/hardware_dolby",
+    "branch"      : "sony-1.5",
     "remote"      : "github-non-los",
     "target_path" : "hardware/dolby"
   },
-  {
-    "repository"  : "nyxalune/packages_app_DolbyUI",
-    "remote"      : "github-non-los",
-    "target_path" : "packages/apps/DolbyUI"
-  }
+
 ]
+
