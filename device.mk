@@ -314,7 +314,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.kernel.post_boot.sh \
     init.Spacewar.perf.rc \
-    init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
     init.qcom.usb.rc \
