@@ -27,7 +27,7 @@ pm.sleep_mode=1
 vendor.post_boot.parsed=1s
 
 # Display
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 persist.sys.sf.native_mode=260
 sys.brightness.disable_gamma_conversion=true
 

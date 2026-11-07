@@ -138,7 +138,6 @@ debug.sf.region_sampling_period_ns=99999984
 debug.sf.region_sampling_timer_timeout_ns=99999984
 debug.sf.treat_170m_as_sRGB=1
 debug.sf.disable_backpressure=1
-debug.sf.enable_hwc_vds=0
 debug.sf.disable_client_composition_cache=0
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.disable_backpressure=1
